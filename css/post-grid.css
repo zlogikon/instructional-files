@@ -58,14 +58,7 @@
   margin:0px;
 }
 
-.card {
-  transition:0.3s; /*Adds fade in shadow on hover*/
-  width:auto;
-  border:solid;
-  border-color:#b1a296;
-  display:block;
-  color:#5d5c61;
-}
+
 
 
 
