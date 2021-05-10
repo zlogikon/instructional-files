@@ -113,7 +113,7 @@ nav a{
 
 footer {
   grid-area:footer;
-  background-color:#557a95;
+  background-color:#e1f4ee;
   display:flex;
   flex-direction:row;
   align-items:center;
@@ -150,17 +150,23 @@ footer {
   text-decoration:underline;
 }
 
+#topButton{
+  background-color:#b1a296;
+  font-size:20px;
+  border:none;
+  color:white;
+  padding:15px 32px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  margin:5px;
+}
+
 /* Medium and Large Screens -- Navigation on left */
-@media (min-width:751px) {
+@media (min-width:1001px) {
 
 .container {
-  grid-template-columns:270px 1fr;
-  grid-template-rows:repeat(3, auto);
-  grid-column-gap:0px;
-  grid-row-gap:0px;
-  grid-template-areas:
-    "header header header"
-    "nav main main"
-    "footer footer footer";
-   }
+  width:80%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
