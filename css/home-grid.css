@@ -12,7 +12,7 @@
 .card {
   transition:0.3s; /*Adds fade in shadow on hover*/
   margin:10px;
-  height: 200px;
+  height: 250px;
   width: 90%;
   border:solid;
   border-color:#b1a296;
