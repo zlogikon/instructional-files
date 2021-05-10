@@ -1,0 +1,23 @@
+/*Not used in actual website -- Only used for design system*/
+
+h1.design{
+   font-family: 'Noto Serif', serif;
+   font-size: 75px;
+   color: black;
+   margin:0;
+   padding: 10px;
+ }
+
+
+.color1 {
+  background-color: #7395ae;
+}
+.color2 {
+  background-color: #b1a296;
+}
+.color3 {
+  background-color: #557a95;
+}
+.color4 {
+  background-color: #5d5c61;
+}
