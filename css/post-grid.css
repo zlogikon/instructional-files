@@ -4,7 +4,7 @@
   display:grid;
   width:100%;
   grid-template-columns:1fr;
-  grid-template-rows:auto auto auto auto 1fr;
+  grid-template-rows:auto auto auto auto;
 }
 
 #post-title{
@@ -15,145 +15,30 @@
   color:#5d5c61;
 }
 
-#author-info{
-  display:flex;
-  justify-content:flex-start;
-  grid-column:1;
-  grid-row:3;
-  margin:20px;
-  height:auto;
-  align-self:start;
-}
-
-#author-info img{
-  height:100px;
-  margin:10px;
-}
-
-#author-info ul{
-  display:flex;
-  flex-direction:column;
-  list-style-type:none;
-  align-content:space-around;
-}
-
 #post-img{
   width:100%;
+  height:100px;
+  object-fit:cover;
   margin:0px;
   grid-row:1;
 }
 
-#ingredients{
+#body{
   margin:20px;
-  grid-row:4;
-}
-
-#procedure{
-  margin:20px;
-  grid-row:5;
-}
-
-.social-share {
-  background-color:#b1a296;
-  margin:0px;
-}
-
-
-
-
-
-/*Medium Screens*/
-@media (min-width:751px) and (max-width:1000px) {
-
-.post-grid{
-  grid-template-columns:1fr 160px;
-  grid-template-rows:auto auto auto 1fr;
-}
-
-#post-title{
-  grid-column:1;
-  grid-row:2;
-}
-
-#author-info{
-  display:flex;
-  justify-content:flex-start;
-  flex-direction:column;
-  grid-column:2;
-  grid-row:2;
-  margin:20px;
-  width:auto;
-}
-
-#post-img{
-  grid-column:1 / span 2;
-  height:200px;
-  object-fit:cover;
-}
-
-#ingredients{
-  grid-column:1 / span 2;
   grid-row:3;
 }
 
-#procedure{
-  grid-column:1 / span 2;
+#tips{
+  margin:20px;
   grid-row:4;
 }
 
-#author-info ul{
-  align-content:flex-start;
-  padding-left:5px
-}
 
-}
-
-/*Large Screens*/
+/* Medium and Large Screens */
 @media (min-width:1001px) {
 
-  .post-grid{
-    grid-template-columns:300px 1fr 320px;
-    grid-template-rows:auto auto 1fr;
-  }
-
-  #post-title{
-    grid-column:1 / span 2;
-    grid-row:2;
-  }
-
-  #author-info{
-    display:flex;
-    justify-content:flex-start;
-    flex-direction:column;
-    grid-column:3;
-    grid-row:2;
-    margin:40px;
-    width:auto;
-  }
-
-  #author-info img{
-    height:200px;
-    margin:20px;
-  }
-
   #post-img{
-    grid-column:1 / span 3;
-    height:400px;
-    object-fit:cover;
+    height:200px;
   }
 
-  #ingredients{
-    grid-column:1;
-    grid-row:3;
-  }
 
-  #procedure{
-    grid-column:2 / span 2;
-    grid-row:3;
-  }
-
-  #author-info ul{
-    align-content:flex-start;
-    padding-left:5px
-  }
-}
