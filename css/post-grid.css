@@ -7,7 +7,7 @@
   grid-template-rows:auto auto auto auto;
 }
 
-#print-title{
+#printer-friendly{
   display: none;
 }
 
@@ -47,7 +47,7 @@
 }
 
 @media print{
-  #print-title{
+  #printer-friendly{
     display:block;
     color: black;
   }
