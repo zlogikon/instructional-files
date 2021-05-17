@@ -7,6 +7,10 @@
   grid-template-rows:auto auto auto auto;
 }
 
+#print-title{
+  display: none;
+}
+
 #post-title{
   margin:20px;
   padding:0px;
@@ -23,8 +27,8 @@
   grid-row:1;
 }
 
-#body{
-  margin:20px;
+#main-content{
+  margin:0 20px;
   grid-row:3;
 }
 
@@ -40,5 +44,20 @@
   #post-img{
     height:200px;
   }
+}
+
+@media print{
+  #print-title{
+    display:block;
+    color: black;
+  }
+
+  #post-img{ 
+    display:none;
+  }
+
+  #post-title{
+    color:black;
+}
 
 
