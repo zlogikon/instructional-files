@@ -4,7 +4,7 @@
 @import url('design-system.css');
 
 
-/* Anything smaller than first breakpoint 750px */
+/* Anything smaller than first breakpoint px 1001px*/
 /* This stylesheet includes structural elements that are used on all pages, including navigation*/
 
 body {
@@ -163,24 +163,25 @@ footer {
   margin:5px;
 }
 
-/* Medium and Large Screens -- Navigation on left */
+/* Medium and Large Screens */
 @media (min-width:1001px) {
 
 .container {
   width:80%;
   margin-right: 10%;
   margin-left: 10%;
-}
+  }
 }
 
 @media print{
   header {
     display:none;
   }
-  
+
   nav { 
     display:none;
   }
+  
   footer{
     display:none;
   }
