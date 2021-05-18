@@ -41,6 +41,10 @@
   margin:0 0 0 31%;
   }
 
+.card-info p{
+  display: none;
+}
+
 .home-grid img{
   width:30%;
   height: 100%;
@@ -49,3 +53,9 @@
   
 }
 
+@media (min-width:750px) {
+
+  .card-info p{
+    display: block;
+  }
+  }
