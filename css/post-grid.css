@@ -32,6 +32,23 @@
   grid-row:3;
 }
 
+figure {
+  float: right;
+  width:300px;
+  margin-left: 20px;
+  border:#99ddff;
+  background-color: #99ddff;
+  border-style:solid;
+}
+
+figure img{
+  width: inherit;
+}
+
+figcaption{
+  padding:10px;
+}
+
 #tips{
   margin:20px;
   grid-row:4;
