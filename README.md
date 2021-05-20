@@ -8,3 +8,4 @@ To improve accessibility, I have reformatted the content into responsive webpage
 Originally these materials would have included slide decks and printed supplimentary information.
 
 Stock images are used under creative commons license via <a href="https://pixabay.com/">Pixabay</a>.
+<a href="https://www.microsoft.com/en-us/p/microsoft-authenticator/9nblgggzmcj6?activetab=pivot:overviewtab#">Microsoft Authenticator</a> is for educational use only
