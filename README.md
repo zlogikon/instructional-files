@@ -1,9 +1,9 @@
-# Instructional materials Sample
+# Sample instructional materials
 <a href="https://zlogikon.github.io/instructional-files/">Project homepage</a>
 
 These materials were created for computer classes I have taught in public libraries.
 
-I have reformatted them into responsive webpages in order to make them more accessible.
+To improve accessibility, I have reformatted the content into responsive webpages.
 
 Originally these materials would have included slide decks and printed supplimentary information.
 
