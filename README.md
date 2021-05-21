@@ -3,7 +3,7 @@ Follow this link to view the <a href="https://zlogikon.github.io/instructional-f
 
 These materials were created for computer classes I have taught in public libraries.
 
-To improve accessibility, I have reformatted the content into responsive webpages.
+To improve accessibility, I have reformatted the content into responsive webpages. Pages are responsive for large and small screens. In addition, using print commands in the browser will remove menus & unneeded space while also inserting print urls for external links.
 
 Originally these materials would have included slide decks and printed supplimentary information.
 
