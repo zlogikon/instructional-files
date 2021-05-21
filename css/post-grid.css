@@ -7,7 +7,7 @@
   grid-template-rows:auto auto auto auto;
 }
 
-#printer-friendly{
+.printer-friendly{
   display: none;
 }
 
@@ -64,7 +64,7 @@ figcaption{
 }
 
 @media print{
-  #printer-friendly{
+  .printer-friendly{
     display:block;
     color: black;
   }
